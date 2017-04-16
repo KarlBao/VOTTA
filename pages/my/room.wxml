@@ -1,0 +1,4 @@
+<!--pages/my/room.wxml-->
+<view class="container">
+  <navigator wx:for="{{rooms}}" class="history-tab" url="{{item.url}}">{{item.title}}</navigator>
+</view>

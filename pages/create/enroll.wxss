@@ -1,0 +1,11 @@
+/* pages/create/enroll.wxss */
+.text-input {
+  height: 45px;
+}
+.text-input, .textarea {
+  width: 100%;
+  padding: 10px 15px;
+  border: 1px solid #eee;
+  margin-bottom: 50rpx;
+  box-sizing: border-box;
+}

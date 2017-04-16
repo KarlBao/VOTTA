@@ -1,0 +1,15 @@
+<!--pages/room/enroll.wxml-->
+<view class="container">
+  <view class="room-info">
+    <text class="title">{{title}}</text>
+    <text class="description">{{description}}</text>
+    <button class="button" bindtap="join">我也要参加</button>
+  </view>
+  <view class="join-info">
+    已经有<text class="highlight"> {{joinNum}} </text>位小伙伴报名了：
+    <view wx:for="{{joinUsers}}" class="join-user">
+      <image class="avatar" src="{{item.user_avatar}}"></image>
+      <text class="name">{{item.user_name}}</text>
+    </view>
+  </view>
+</view>

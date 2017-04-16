@@ -1,0 +1,5 @@
+<view class="container">
+  <input class="text-input" placeholder="标题" bindinput="setTitle" auto-focus/>
+  <textarea class="textarea" placeholder="描述内容（可选）" bindinput="setDescription"/>
+  <button class="button" bindtap="submit">发布</button>
+</view>

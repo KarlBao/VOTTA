@@ -1,0 +1,4 @@
+<!--index.wxml-->
+<view class="container">
+  <navigator class="create-btn" url="/pages/create/enroll">发布活动</navigator>
+</view>
